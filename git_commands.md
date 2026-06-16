@@ -1,0 +1,12 @@
+commands:
+    - git init
+    - git add <filename> (OR) git add .
+    - git commit -m "message"
+    - git status
+    - git log
+    - git log --oneline
+    - git cat-file -p <commit>      (-p stands for prettie print)
+    - git reset --hard <commit>
+    - git revert <commit>
+    - git commit -am "msg"      (Adds and Commits everything in the working directory but not the new files)
+    -
