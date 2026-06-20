@@ -9,4 +9,21 @@ commands:
     - git reset --hard <commit>
     - git revert <commit>
     - git commit -am "msg"      (Adds and Commits everything in the working directory but not the new files)
-    -
+    - git diff          (checking your work before staging it)
+    - git diff --staged     (Compares your Staging Area against your Last Commit (HEAD))
+    - git diff HEAD      (Compares your Working Directory against your Last Commit (HEAD) ignoring whether you have run git add on them or not.)
+    - git diff <branch1> <branch2>   (Compares two different branches)
+    - git diff <commit1> <commit2>   (Compares two specific commits)
+    - git remote -v         (To check the remote repository - is it added or not)
+    - git remote add origin <url>
+    - git push -u origin main     (used once and then you can use git push directly)
+    - git push origin main       (push to remote origin and main branch but doesn't create a permenat link between local and remote - i.e. you cannot use git push for the same)
+    - git push         (ultimate shortcut command relies entirly on Git's memory or defaults)
+    - git clone <url>   (it does clone and set the url)
+    - git remote set-url origin <url>    (change the remote url)
+    - git branh         (checks the branch currently in and shows other branches)
+    - git checkout -b "feature/a"    (creates then checkouts in the branch created)
+    - git checkout "branch name"    (just checkouts since the branch should have already created)
+    - git merge <branch name>       (merge the changes and all the commits also)
+    - git merge --squash <branch name>    (squash all the changes of a branch in front of you to commit in main or other)
+    - 
