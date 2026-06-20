@@ -7,6 +7,8 @@ commands:
     - git log --oneline
     - git cat-file -p <commit>      (-p stands for prettie print)
     - git reset --hard <commit>
+    - git reset --soft <hash number>    (Undoing a commit to rewrite the message or squash commits)
+    - git reset <filename.txt>      (f you accidentally ran git add on a file and want to unstage it)  
     - git revert <commit>
     - git commit -am "msg"      (Adds and Commits everything in the working directory but not the new files)
     - git diff          (checking your work before staging it)
@@ -26,4 +28,6 @@ commands:
     - git checkout "branch name"    (just checkouts since the branch should have already created)
     - git merge <branch name>       (merge the changes and all the commits also)
     - git merge --squash <branch name>    (squash all the changes of a branch in front of you to commit in main or other)
-    - 
+    - git push --set-upstream origin <feature/xyz>   (To push the current branch and set the remote as upstream)
+    - git rebase <brachname e.g. main>   
+        (Git, rebase is a command that integrates changes from one branch into another by moving or combining a sequence of commits to a new base commit.)
