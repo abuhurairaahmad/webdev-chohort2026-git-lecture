@@ -7,4 +7,5 @@ Me: Hi
 You: By!
 
 Let's try another feature:
-not completed yet...
+You'll say how are you and I'll say fine.
+-not yet complete
