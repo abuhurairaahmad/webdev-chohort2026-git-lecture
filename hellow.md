@@ -8,4 +8,5 @@ You: By!
 
 Let's try another feature:
 You'll say how are you and I'll say fine.
--not yet complete
+He: How are you?
+You: I am fine bro.
